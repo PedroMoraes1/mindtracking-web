@@ -9,8 +9,8 @@ import AthenaCard from "@/components/common/Cards/Cards_Dashboard/AthenaCard";
 
 export default function Dashboard() {
   return (
-    <div className="ml-0 lg:ml-37.5 min-h-0 h-screen">
-      <div className="ml-o lg:ml-12.5 flex flex-col min-h-0 h-full">
+    <div className="ml-0 lg:ml-12.5 min-h-0 h-screen">
+      <div className=" flex flex-col min-h-0 h-full">
         <div className="flex-shrink-0">
           <h2 className="text-[30px] font-semibold mb-2 mt-2">
             Seu resumo de saúde mental semanal
@@ -18,7 +18,7 @@ export default function Dashboard() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[98%] auto-rows-fr min-h-0">
-          <QuestionarioCard respondidos={42} respondeuHoje={false} />
+          <QuestionarioCard respondidos={42} respondeuHoje={true} />
           <EstadoEmocionalCard nota={2.1} />
           <RecomendacoesCard recomendacao="Seus diálogos têm foco em ansiedade. Experimente nossa meditação guiada!" />
         </div>

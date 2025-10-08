@@ -41,8 +41,8 @@ export default function DiarioEmocionalCard() {
           >
             <p>
               Último diário registrado:{" "}
-              <span>
-                &ldquo;Não consegui dormir direito. Senti ansiedade e medo...&rdquo;
+              <span className="w-[280px]">
+                Não consegui dormir direito. Senti ansiedade e medo...
               </span>
             </p>
             <p>25/06 às 22h12</p>
@@ -53,9 +53,8 @@ export default function DiarioEmocionalCard() {
               <span className="font-semibold">Intensidade emocional:</span> Alta
             </p>
             <p>
-              <span className="font-semibold">Athena diz:</span>
-              <br />
-              &ldquo;Você parece sobrecarregado. Tente relaxar com uma meditação.&rdquo;
+              <span className="font-semibold mr-2">Athena diz:</span>
+              &#34;Você parece sobrecarregado. Tente relaxar com uma meditação.
             </p>
           </div>
 

@@ -15,10 +15,14 @@ export default function QuestionarioCard({
     <BaseCard>
       <div className="flex justify-between items-center">
         <h1
-          className={`text-[20px] font-semibold ${isDark ? "text-white" : "text-slate-800"}`}
+          className={`font-semibold
+            ${isDark ? "text-white" : "text-slate-800"}
+            ${respondeuHoje ? "text-[18px]" : "text-[20px]"}
+          `}
         >
           {respondeuHoje ? "Questionários respondidos" : "Questionário diário"}
         </h1>
+
         <Image
           src={
             isDark
